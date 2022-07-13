@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.back {
+  background: url(../image/bachground.jpg) no-repeat 780px 0px;
+  font-family: "Open Sans", sans-serif;
+
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.heading {
+  vertical-align: middle;
+  border-bottom: 1px solid #c08d5d;
+  display: inline-block;
+  padding: 43px 0;
+}
+.heading .logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 81px;
+}
+nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+nav li {
+  display: inline-block;
+  margin-right: 54px;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+nav a:active {
+  color: #c08d5d;
+}
+.food {
+  padding-top: 122px;
+}
+.food__header::after {
+  content: url(../image/wave.svg);
+  display: block;
+  margin-top: 45px;
+  margin-bottom: 26px;
+  height: 9px;
+}
+.food__header h1 {
+  font-family: "Yeseva One", cursive;
+  font-size: 50px;
+  letter-spacing: 0.06em;
+  color: #3f4042;
+  line-height: 58px;
+}
+.upper {
+  text-transform: uppercase;
+  display: block;
+  font-size: 70px;
+  line-height: 68px;
+}
+.logo__after {
+  display: inline-block;
+}
+.logo__after::after {
+  content: url(../image/Logo.svg);
+
+  display: inline-block;
+  vertical-align: -6px;
+}
+
+.food__text {
+  max-width: 553px;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  line-height: 27px;
+  color: #3f4042;
+}
+
+.buttom {
+  border: #c08d5d 2px solid;
+  display: inline-block;
+  text-decoration: none;
+  color: #3f4042;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-top: 72px;
+}
+.buttom p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 9px 0 13px;
+}
+
+.buttom::after {
+  content: url(../image/one.svg);
+
+  background-color: #c08d5d;
+  display: inline-block;
+  text-align: center;
+  padding: 11px 0 22px 0;
+  width: 59px;
+}
+.mouse {
+  background-image: url(../image/mouse.svg);
+  display: block;
+  width: 34px;
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 63px;
+  margin-bottom: 69px;
+}
